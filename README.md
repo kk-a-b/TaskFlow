@@ -75,3 +75,12 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 | 权限控制 | 前端 UI 根据角色展示/隐藏操作入口 |
 
 # 页面预览
+网页版<br>
+<img width="428" height="311" alt="登录" src="https://github.com/user-attachments/assets/f0e04328-9219-403c-a1f8-31e83d9b5398" />
+<img width="428" height="311" alt="项目管理" src="https://github.com/user-attachments/assets/2fc12e3c-4d00-4363-84dc-16e0bdfd8b69" />
+<img width="428" height="311" alt="项目详情" src="https://github.com/user-attachments/assets/bd0db1b3-b3ca-4d26-bd32-958f5c614743" />
+<img width="428" height="311" alt="任务详情" src="https://github.com/user-attachments/assets/5c7b5995-1001-430c-8ac1-c0787ff63203" />
+
+
+
+

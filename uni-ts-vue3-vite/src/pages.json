@@ -1,0 +1,51 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/project/board",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "项目看板"
+			}
+		},
+		{
+			"path": "pages/task/detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "任务详情"
+			}
+		},
+		{
+			"path": "pages/project/list",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的看板"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

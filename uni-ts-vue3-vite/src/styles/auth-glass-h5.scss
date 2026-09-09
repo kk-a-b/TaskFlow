@@ -1,0 +1,47 @@
+﻿@keyframes onAutoFillStart {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* H5锛歶ni-app 鐪熷疄 input 涓?.uni-input-input锛岄渶鍏ㄥ眬瑕嗙洊 autofill */
+.auth-page .uni-input-input:-webkit-autofill,
+.auth-page .uni-input-input:-webkit-autofill:hover,
+.auth-page .uni-input-input:-webkit-autofill:focus,
+.auth-page .uni-input-input:-webkit-autofill:active {
+  -webkit-text-fill-color: #fff !important;
+  caret-color: #fff;
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.18) inset !important;
+  box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.18) inset !important;
+  transition: background-color 99999s ease-out 0s;
+  animation: onAutoFillStart 0s forwards;
+}
+
+.auth-page .uni-input-wrapper:has(.uni-input-input:-webkit-autofill) .uni-input-placeholder {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+.auth-page .input-wrap--focus .uni-input-input:-webkit-autofill,
+.auth-page .input-wrap--focus .uni-input-input:-webkit-autofill:hover,
+.auth-page .input-wrap--focus .uni-input-input:-webkit-autofill:focus,
+.auth-page .input-wrap--focus .uni-input-input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.25) inset !important;
+  box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.25) inset !important;
+}
+
+/* 闅愯棌娴忚鍣?password 杈撳叆妗嗚嚜甯︽樉绀哄瘑鐮佹寜閽?*/
+.auth-page .password-field .uni-input-input::-ms-reveal,
+.auth-page .password-field .uni-input-input::-ms-clear {
+  display: none !important;
+}
+
+.auth-page .password-field .uni-input-input::-webkit-credentials-auto-fill-button,
+.auth-page .password-field .uni-input-input::-webkit-strong-password-auto-fill-button {
+  display: none !important;
+}
+

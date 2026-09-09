@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build / uni-app / HBuilderX
+dist/
+dist-ssr/
+unpackage/
+.hbuilderx/
+local/
+hybrid/
+.vite/
+.cache/
+.temp/
+.output/
+coverage/
+*.tsbuildinfo
+*.iml
+platformConfig.json
+
+# Env
+*.local
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp

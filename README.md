@@ -74,12 +74,26 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 | 成员管理 | 邀请成员加入项目（多选+搜索） |
 | 权限控制 | 前端 UI 根据角色展示/隐藏操作入口 |
 
+# 演示数据
+所有演示账号密码均为 **`123456`**：
+| 账号 | 角色 | 姓名 |
+| :--- | :--- | :--- |
+| admin | 管理员 | 系统管理员 |
+| zhangpm | 项目负责人 | 张经理 |
+| wangwu | 任务修改人 | 王五 |
+
 # 页面预览
 网页版<br>
 <img width="428" height="311" alt="登录" src="https://github.com/user-attachments/assets/f0e04328-9219-403c-a1f8-31e83d9b5398" />
 <img width="428" height="311" alt="项目管理" src="https://github.com/user-attachments/assets/2fc12e3c-4d00-4363-84dc-16e0bdfd8b69" />
 <img width="428" height="311" alt="项目详情" src="https://github.com/user-attachments/assets/bd0db1b3-b3ca-4d26-bd32-958f5c614743" />
 <img width="428" height="311" alt="任务详情" src="https://github.com/user-attachments/assets/5c7b5995-1001-430c-8ac1-c0787ff63203" />
+
+移动端<br>
+<img width="179" height="311" alt="登录" src="https://github.com/user-attachments/assets/f4c7336f-cc96-45fe-9a4e-3196bda53bdf" />
+<img width="179" height="311" alt="项目管理" src="https://github.com/user-attachments/assets/dcd81998-b17d-43d2-8b4d-63e8998f8f76" />
+<img width="179" height="311" alt="项目详情" src="https://github.com/user-attachments/assets/1620047a-9b70-4908-bcde-3b10008e0c93" />
+<img width="179" height="311" alt="任务详情" src="https://github.com/user-attachments/assets/65c80936-6169-4c34-939c-099168a640e7" />
 
 
 
